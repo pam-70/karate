@@ -1,0 +1,6 @@
+sudo docker-compose exec myapp php artisan migrate
+sudo docker-compose exec myapp php artisan migrate:rollback //последнюю 
+sudo docker-compose exec myapp php artisan migrate:reset  //все миграции
+sudo docker-compose exec myapp php artisan migrate:refresh  // удаляет и пересоздает все миграции
+sudo docker-compose exec myapp php artisan migrate:refresh --seed // удаляет и пересоздает все миграции
+sudo docker-compose exec myapp php
