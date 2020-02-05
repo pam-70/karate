@@ -5,3 +5,8 @@ sudo docker-compose exec myapp php artisan migrate:refresh  // удаляет и
 sudo docker-compose exec myapp php artisan migrate:refresh --seed // удаляет и пересоздает все миграции
 sudo docker-compose exec myapp php
 565665
+
+
+
+
+https://eax.me/git-commands/
