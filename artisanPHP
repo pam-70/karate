@@ -4,3 +4,4 @@ sudo docker-compose exec myapp php artisan migrate:reset  //все миграц�
 sudo docker-compose exec myapp php artisan migrate:refresh  // удаляет и пересоздает все миграции
 sudo docker-compose exec myapp php artisan migrate:refresh --seed // удаляет и пересоздает все миграции
 sudo docker-compose exec myapp php
+565665
